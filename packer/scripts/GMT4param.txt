@@ -34,8 +34,8 @@ GSHHG_path=
 #---------------------------------------------
 #	GDAL SECTION
 #---------------------------------------------
-use_gdal=n
-gdal_path=
+use_gdal=y
+gdal_path=/usr/bin/gdal-config
 #---------------------------------------------
 #	GMT FTP SECTION
 #---------------------------------------------
@@ -52,7 +52,7 @@ GMT_suppl_xgrid=y
 #	GMT ENVIRONMENT SECTION
 #---------------------------------------------
 GMT_si=y
-GMT_ps=y
+GMT_ps=n
 GMT_prefix=/usr/local
 GMT_bin=
 GMT_lib=

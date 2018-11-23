@@ -25,6 +25,15 @@ sudo apt-get -y install firefox
 sudo apt-get -y install libnetcdf-dev
 sudo apt-get -y install netcdf-bin
 
+# gdal for GMT
+sudo apt-get -y install gdal-bin
+sudo apt-get -y install gdal-data
+sudo apt-get -y install libgdal-dev
+
+# tools for GMT
+sudo apt-get -y install epstool
+sudo apt-get -y install gnuplot
+
 # build and install GMT
 pushd /tmp/scripts
 sudo sh install_gmt4.sh GMT4param.txt
