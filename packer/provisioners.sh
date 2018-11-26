@@ -32,14 +32,17 @@ sudo apt-get -y install gdal-bin
 sudo apt-get -y install gdal-data
 sudo apt-get -y install libgdal-dev
 
+# build and install GMT
+mkdir -p .local/share
+pushd .local/share
+cp -f /tmp/scripts/install_gmt4.sh ./
+cp -f /tmp/scripts/GMT4param.txt ./
+sudo sh install_gmt4.sh GMT4param.txt
+popd
+
 # tools for GMT
 sudo apt-get -y install epstool
 sudo apt-get -y install gnuplot
-
-# build and install GMT
-pushd /tmp/scripts
-sudo sh install_gmt4.sh GMT4param.txt
-popd
 
 # for MKL
 pushd /tmp

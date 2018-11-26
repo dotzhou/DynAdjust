@@ -5,10 +5,10 @@
 # Default answers will be selected where none is given.
 # You can edit the values, but do not remove definitions!
 #
-# Assembled by gmt_install_form.html, $Revision: 10410 $
+# Assembled by gmt_install_form.html, $Revision: 9962 $
 # Processed by install_gmt_form.pl : 10410  on
 #
-#	Wed Nov 21 13:22:02 HST 2018
+#	Sun Nov 25 16:31:09 HST 2018
 #
 # Do NOT add any spaces around the = signs.  The
 # file MUST conform to Bourne shell syntax
@@ -52,7 +52,7 @@ GMT_suppl_xgrid=y
 #	GMT ENVIRONMENT SECTION
 #---------------------------------------------
 GMT_si=y
-GMT_ps=n
+GMT_ps=y
 GMT_prefix=/usr/local
 GMT_bin=
 GMT_lib=
