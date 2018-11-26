@@ -20,6 +20,8 @@ sudo apt-get -y install git
 sudo apt-get -y install xorg
 sudo apt-get -y install vim-gnome
 sudo apt-get -y install firefox
+# PDF reader if not use browser
+sudo apt-get -y install okular
 
 # netcdf for GMT
 sudo apt-get -y install libnetcdf-dev
